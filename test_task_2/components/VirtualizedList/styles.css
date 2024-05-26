@@ -1,0 +1,20 @@
+.vitualized-list-container{
+	overflow-y: scroll;
+	position: relative;
+}
+
+ul.virtualized-list{
+	padding:0;
+	margin: 0;
+}
+
+ul.virtualized-list li{
+	position:absolute;
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	width:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
